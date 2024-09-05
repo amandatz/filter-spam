@@ -1,1 +1,1 @@
-# filter-spam
+# Naive Bayes Spam Filter
