@@ -19,6 +19,21 @@ Este tópico foi inteiramente resolvido dentro de [Bayesian_Inference.ipynb](Bay
 
 > **Instrução:** Explicar o que significa o "Bag of Words"
 
+_Bag of Words_ (BoW) é uma técnica utilizada para representar dados de texto como um vetor numérico. Ela essencialmente conta a frequência de palavras ignorando a ordem em que elas ocorrem.
+
+De forma exemplificada, considere as seguintes frases:
+- **Frase 0:** O tempo perguntou ao tempo quanto tempo o tempo tem
+- **Frase 1:** Uma breve história do tempo
+
+Podemos visualizá-las em forma de matriz: cada linha `i` representa uma frase, enquanto a coluna `j` representa uma palavra. A entrada `ij` da matriz guarda a frequência em que a palavra `j` aparece na frase `i`. 
+
+Ignorando a diferença entre maiúsculas e minúsculas, teríamos:
+
+|   | o | tempo | perguntou | ao | quanto | tem | uma | breve | história | do |
+|:-:|:-:|:-----:|:---------:|:--:|:------:|:---:|:---:|:-----:|:--------:|:--:|
+| **0** | 2 | 4 | 1 | 1 | 1 | 1 | 0 | 0 | 0 | 0 |
+| **1** | 0 | 1 | 0 | 0 | 0 | 0 | 1 | 1 | 1 | 1 |
+
 ## Especificidade x Sensitividade
 
 > **Instrução:** Explicar a diferença entre especificidade e sensitividade. Dê dois exemplos práticos, uma em que a especificidade parece ser mais adequada do que a sensitividade e vice-versa
