@@ -38,6 +38,24 @@ Ignorando a diferença entre maiúsculas e minúsculas, teríamos:
 
 > **Instrução:** Explicar a diferença entre especificidade e sensitividade. Dê dois exemplos práticos, uma em que a especificidade parece ser mais adequada do que a sensitividade e vice-versa
 
+A **sensitividade** de um teste, também chamada de taxa de verdadeiro positivo (TPR) ou  _recall_, é a taxa de positivos que foram corretamente identificados como positivos
+
+A sensibilidade pode ser calculada da seguinte forma:
+```
+sensibilidade = #[verdadeiros positivos] / (#[verdadeiros positivos] + #[falsos negativos])
+```
+
+Já a **especificidade** de um teste, também chamada de taxa de verdadeiro negativo (TNR), é a taxa de negativos que foram corretamente identificados como negativos, i.e, 
+```
+especificidade = #[verdadeiros negativos] / (#[verdadeiros negativos] + #[falsos positivos])
+```
+
+A escolha entre algoritmos que priorizam sensibilidade ou especificidade depende diretamente da natureza do problema.
+
+Por exemplo, em um teste para detecção de câncer, é importante priorizar a sensitividade para garantir que a maior parte dos casos positivos seja identificada. Perder um positivo (paciente com câncer) por falta de tratamento seria muito grave.
+
+Em contrapartida, um filtro de spam deve priorizar a especificidade. Visualizar um spam é menos pior do que perder uma mensagem importante.
+
 ## Naive Bayes x Regressão logística
 
 > **Instrução:** Implementar o Naive Bayes conforme indica o roteiro e comparar com um (1) dos algoritmos vistos no ML tour, justificando a escolha do melhor modelo. É para comparar o Naive Bayes com um e apenas um algoritmo
