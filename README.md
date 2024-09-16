@@ -17,8 +17,17 @@ Este tópico foi inteiramente resolvido dentro de [Bayesian_Inference.ipynb](Bay
 
 ## Bag of Words
 
+> **Instrução:** Explicar o que significa o "Bag of Words"
+
 ## Especificidade x Sensitividade
+
+> **Instrução:** Explicar a diferença entre especificidade e sensitividade. Dê dois exemplos práticos, uma em que a especificidade parece ser mais adequada do que a sensitividade e vice-versa
 
 ## Naive Bayes x Regressão logística
 
+> **Instrução:** Implementar o Naive Bayes conforme indica o roteiro e comparar com um (1) dos algoritmos vistos no ML tour, justificando a escolha do melhor modelo. É para comparar o Naive Bayes com um e apenas um algoritmo
+
 ## Prós e contras
+
+> **Instrução:** Você deverá fazer uma lista dos prós e contras do Naive Bayes e do algoritmo escolhido. Você deve explicar o resultado obtido com base nas características dos dois algoritmos avaliado. Você teria algum insight relevante para me apresentar?
+
