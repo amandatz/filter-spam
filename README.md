@@ -54,7 +54,7 @@ A escolha entre algoritmos que priorizam sensibilidade ou especificidade depende
 
 Por exemplo, em um teste para detecção de câncer, é importante priorizar a sensitividade para garantir que a maior parte dos casos positivos seja identificada. Perder um positivo (paciente com câncer) por falta de tratamento seria muito grave.
 
-Em contrapartida, um filtro de spam deve priorizar a especificidade. Visualizar um spam é menos pior do que perder uma mensagem importante.
+Em contrapartida, um filtro de spam deve priorizar a especificidade. Receber um spam é menos pior do que perder uma mensagem importante.
 
 ## Naive Bayes x Regressão logística
 
